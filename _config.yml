@@ -141,6 +141,7 @@ content:
         title: 스프링 부트 웹 애플리케이션 [개인]
         sub_title: 백엔드
         link: https://github.com/choiwoonsik/springboot_RestApi_App_Project
+        link_text: github_springboot-Project
         additional_links:
           - title: 블로그 정리
             icon: fas fa-globe
