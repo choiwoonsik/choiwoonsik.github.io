@@ -60,7 +60,7 @@ content:
       - layout: left
         title: 코디네이터 1:1 매칭 패션 플랫폼 [팀] - 스타일멘토
         sub_title: Spring Boot 백엔드
-        dates: 2021. 12 ~ 현재
+        dates: 2021.12 ~ 현재
         link: https://github.com/Sigma-i-2022/backend/tree/develop
         # link_text: Project Website
         additional_links:
@@ -93,12 +93,12 @@ content:
           * 프레임워크 : Spring Boot, Spring Data JPA, Gradle, Swagger
           * 외부 API : 토스페이먼츠 PG, 금융결제원 오픈뱅킹 오픈API
 
-          ##### [참고 자료]
+          #### [참고 자료]
             * [스타일 멘토 구글플레이 링크](https://play.google.com/store/apps/details?id=com.sigmai.stylemento)
       - layout: left
         title: 리그오브레전드 스펠/궁극기 체크 도우미 [팀] - 스우미
         sub_title: Spring Boot 백엔드
-        dates: 2020. 07 ~ 2021.10
+        dates: 2020.07 ~ 2021.10
         link: https://github.com/Team-Swoomi/swoomi-backend
         additional_links:
           - title: swoomi
@@ -122,8 +122,9 @@ content:
           * 제 1회 OPGG 정보통신 경진대회 우승
 
           #### [문제 해결 경험]
+          * 트랜잭션 Uncheck 예외 발생 시 [Rollback only 활성화 이슈](https://ws-pace.tistory.com/138?category=962975)
+          * [SYN Flooding Attack(DDos) 대응 정리](https://ws-pace.tistory.com/207?category=962975)
           * 서버 트래픽 급증으로 인한 [DB 커넥션 부족 이슈](https://ws-pace.tistory.com/242?category=1010992)
-          * 트랜잭션 Uncheck 예외 발생 시 [Rollback only 활성화 이슈]()
 
           #### [사용 기술]
           * 언어 : Java
@@ -133,19 +134,21 @@ content:
           * 프레임워크 : Spring Boot, Spring Data JPA, Gradle, Swagger
           * 외부 API : [Orianna](https://github.com/meraki-analytics/orianna)
 
-          ##### [참고 자료]
+          #### [참고 자료]
             * [스우미 서비스 링크](https://swoomi.me)
             * OPGG 해커톤 우승 [인터뷰](https://m.post.naver.com/viewer/postView.naver?volumeNo=32651307&memberNo=24985926) 및 [수료증](https://hackathon.op.gg/users/yZezVI4Zhc)
 
       - layout: left
         title: 스프링 부트 웹 애플리케이션 [개인]
-        sub_title: 백엔드
-        link: https://github.com/choiwoonsik/springboot_RestApi_App_Project
-        link_text: github_springboot-Project
+        sub_title: Spring Boot 백엔드
         additional_links:
           - title: 블로그 정리
             icon: fas fa-globe
             url: https://ws-pace.tistory.com/category/Web/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%20RestAPI%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8
+          - title: 블로그 레포
+            icno: fab fa-github
+            url: https://github.com/choiwoonsik/springboot_RestApi_App_Project
+
         caption:
         description: |
           #### [역할]
@@ -192,19 +195,20 @@ content:
       - layout: left
         title: 상명대학교
         sub_title: SW융합학부 컴퓨터과학전공
-        link: https://ws-pace.tistory.com/category/CS
         caption: |
-          - 2016. 03 - 2023. 02
-          - (현재 4학년 1학기 재학중)
+          2016.03 - 2023.02 (4학년 1학기 재학중)
         quote:
         description: | # this will include new lines to allow paragraphs
           * [운영체제](https://ws-pace.tistory.com/category/CS/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20%EC%A0%95%EB%A6%AC), [네트워크](https://ws-pace.tistory.com/category/CS/OSI%207%EA%B3%84%EC%B8%B5%20%EC%A0%95%EB%A6%AC), 리눅스 프로그래밍 수업 등을 들으며 컴퓨터 내외 전반적인 프로토콜에 대한 지식 함양
           * 알고리즘, 자료구조 수업을 통해 다양한 자료구조 및 알고리즘에 대한 접근 방법과 풀이 방법 학습
           * 객체지향 프로그래밍 수업을 통해 다양한 [디자인 패턴](https://ws-pace.tistory.com/category/CS/GoF%EC%9D%98%20Design%20Pattern%20%EC%A0%95%EB%A6%AC)의 구조 및 활용 방법 학습
 
+          #### [졸업 프로젝트]
+          * 저전력 통신 기법인 LoRa를 기반으로, IoT 센서를 이용하여 배터리 셀에 대한 온도, 전압 등의 데이터를 실시간으로 처리하는 웹페이지 개발 중
+
       - layout: left
         title: 42 서울
-        dates: 2020. 05. 25 ~ 2020. 07.25
+        dates: 2020.05.25 ~ 2020.07.25
         link: https://github.com/choiwoonsik/my42-Seoul
         quote:
         description: |
