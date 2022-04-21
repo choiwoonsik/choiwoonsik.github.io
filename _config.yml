@@ -205,12 +205,12 @@ content:
           2016.03 - 2023.02 (4학년 1학기 재학중)
         quote:
         description: | # this will include new lines to allow paragraphs
-        [전공 과목]
+          [전공 과목]
           * [운영체제](https://ws-pace.tistory.com/category/CS/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20%EC%A0%95%EB%A6%AC), [네트워크](https://ws-pace.tistory.com/category/CS/OSI%207%EA%B3%84%EC%B8%B5%20%EC%A0%95%EB%A6%AC), 리눅스 프로그래밍 수업 등을 들으며 컴퓨터 내외 전반적인 프로토콜에 대한 지식 함양
           * 알고리즘, 자료구조 수업을 통해 다양한 자료구조 및 알고리즘에 대한 접근 방법과 풀이 방법 학습
           * 객체지향 프로그래밍 수업을 통해 다양한 [디자인 패턴](https://ws-pace.tistory.com/category/CS/GoF%EC%9D%98%20Design%20Pattern%20%EC%A0%95%EB%A6%AC)의 구조 및 활용 방법 학습
 
-        [졸업 프로젝트]
+          [졸업 프로젝트]
           * 저전력 통신 기법인 LoRa를 기반으로, IoT 센서를 이용하여 배터리 셀에 대한 온도, 전압 등의 데이터를 실시간으로 처리하는 웹페이지 개발 중
 
       - layout: left
