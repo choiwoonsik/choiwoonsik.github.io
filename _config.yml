@@ -65,7 +65,7 @@ content:
         # link_text: Project Website
         additional_links:
           - title: GooglePlay
-            icon: fas fa-google-play
+            icon: fab fa-google-play
             url: https://play.google.com/store/apps/details?id=com.sigmai.stylemento
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
