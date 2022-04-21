@@ -60,7 +60,7 @@ content:
       - layout: left
         title: 코디네이터 1:1 매칭 패션 플랫폼 [팀] - 스타일멘토
         sub_title: Spring Boot 백엔드
-        dates: 2021.12 ~ 현재
+        caption: 2021.12 ~ 현재
         link: https://github.com/Sigma-i-2022/backend/tree/develop
         # link_text: Project Website
         additional_links:
@@ -98,7 +98,7 @@ content:
       - layout: left
         title: 리그오브레전드 스펠/궁극기 체크 도우미 [팀] - 스우미
         sub_title: Spring Boot 백엔드
-        dates: 2020.07 ~ 2021.10
+        caption: 2021.07 ~ 2021.10
         link: https://github.com/Team-Swoomi/swoomi-backend
         additional_links:
           - title: swoomi
@@ -141,6 +141,7 @@ content:
       - layout: left
         title: 스프링 부트 웹 애플리케이션 [개인]
         sub_title: Spring Boot 백엔드
+        caption: 2021.05 ~ 2021.07
         additional_links:
           - title: 블로그 정리
             icon: fas fa-globe
@@ -215,7 +216,7 @@ content:
 
       - layout: left
         title: 42 서울
-        dates: 2020.05.25 ~ 2020.07.25
+        caption: 2020.05 ~ 2020.09
         link: https://github.com/choiwoonsik/my42-Seoul
         quote:
         description: |
