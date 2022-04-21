@@ -77,9 +77,9 @@ content:
           * Junit 5 및 BDD Mockito 를 사용하여 API, DB (JPA), Service 로직 테스트 코드 작성
           * Web Socket을 이용해 사용자와 코디네이터간 실시간 채팅 구현
           * Spring Boot Mail을 이용해 이메일 인증을 통한 회원가입 구현
-        case:
+        case: |
           * 토스페이먼츠 서브몰 등록 API 개발 중 [공식문서 오류 정정기](https://ws-pace.tistory.com/242?category=1010992)
-        language:
+        language: |
           * 언어 : Java
           * 서버 : AWS EC2, RDS, S3
           * 데이터베이스 : MySql
