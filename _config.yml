@@ -94,7 +94,7 @@ content:
           - title:
             icon:
             url:
-        quote: >
+        # quote: >
           
         description: | # this will include new lines to allow paragraphs
           - Redis를 이용해 캐시메모리 적용하여 쿼리 최적화 및 50% 응답속도 개선
@@ -132,19 +132,18 @@ content:
         link: 
         # link_text: boringcompany.com
         caption: 
-        quote: >
+        # quote: >
 
         description: | # this will include new lines to allow paragraphs
 
-
-  # - title: Opensource
-  #   layout: list
-  #   content:
-  #     - layout: top-middle
-  #       title: 개인 기술블로그
-  #       link: https://ws-pace.tistory.com/
-  #       description: |
-  #       - 학습 중 맞닥뜨렸던 문제점들에 대한 해결 경험과 학교 및 인터넷 강의, 알고리즘 등 공부한 내용들을 꾸준하게 정리하고 있습니다.
+  - title: Opensource
+    layout: list
+    content:
+      - layout: top-middle
+        title: 개인 기술블로그
+        link: https://ws-pace.tistory.com/
+        description: |
+        - 학습 중 맞닥뜨렸던 문제점들에 대한 해결 경험과 학교 및 인터넷 강의, 알고리즘 등 공부한 내용들을 꾸준하게 정리하고 있습니다.
 
   - title: Skill
     layout: list
@@ -176,7 +175,7 @@ content:
         caption: |
           2016. 03 - 2023. 02 
           (현재 4학년 1학기 재학중)
-        quote: >
+        # quote: >
 
         description: | # this will include new lines to allow paragraphs
         - 운영체제, 네트워크, 리눅스 프로그래밍 수업 등을 들으며 컴퓨터 내외 전반적인 프로토콜에 대한 지식 함양
