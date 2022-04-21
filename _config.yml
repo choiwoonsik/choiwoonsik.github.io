@@ -65,7 +65,7 @@ content:
         # link_text: Project Website
         additional_links:
           - title: GooglePlay
-            icon: fa-brands fa-google-play
+            icon: fas fa-google-play
             url: https://play.google.com/store/apps/details?id=com.sigmai.stylemento
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -145,6 +145,7 @@ content:
           - title: 블로그 정리
             icon: fas fa-globe
             url: https://ws-pace.tistory.com/category/Web/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%20RestAPI%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8
+        caption:
         description: |
           #### [역할]
           * MVC 구조의 웹 백엔드를 구현
