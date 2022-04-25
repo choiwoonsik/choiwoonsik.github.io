@@ -127,7 +127,7 @@ content:
           #### [문제 해결 경험]
           * 트랜잭션 Uncheck 예외 발생 시 [Rollback only 활성화 이슈](https://ws-pace.tistory.com/138?category=962975)
           * [SYN Flooding Attack(DDos) 대응 정리](https://ws-pace.tistory.com/207?category=962975)
-          * 서버 트래픽 급증으로 인한 [DB 커넥션 부족 이슈](https://ws-pace.tistory.com/242?category=1010992)
+          * 서버 트래픽 급증으로 인한 [DB 커넥션 부족 이슈](https://ws-pace.tistory.com/245?category=967986)
 
           #### [사용 기술]
           * 언어 : Java
