@@ -112,7 +112,7 @@ content:
             icon: fas fa-globe
             url: https://swoomi.me
         quote: >
-          해커톤 이후 약 4개월간의 실제 운영기간 동안 평균 DAU 10 이상 유지
+          해커톤 이후 약 3개월간 실제 운영기간 동안 평균 DAU 20 이상 유지
         description: | # this will include new lines to allow paragraphs
           #### [목적]
           * 해커톤 프로젝트로 리그오브레전드 게임 유저들이 쉽고 간편하게 스펠/궁극기 시간을 체크할 수 있는 서비스 제작
@@ -130,6 +130,7 @@ content:
           * 도메인 구매 후 TLS를 이용해 HTTPS 적용
           * Spring boot mail을 이용해 예외 발생 시 지정된 이메일로 에러 내용 발송
           * 제 1회 OPGG 정보통신 경진대회 우승
+          * 약 3달간 실제 서비스 운영 및 [평균 DAU 20 이상 달성](https://www.notion.so/woonsik/DAU-8c520326005146758a0e23bc0c82ef78)
 
           #### [문제 해결 경험]
           * 트랜잭션 Uncheck 예외 발생 시 [Rollback only 활성화 이슈](https://ws-pace.tistory.com/138?category=962975)
