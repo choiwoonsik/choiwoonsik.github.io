@@ -71,7 +71,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          예비창업패키지, 학생 창업유망팀 300 선발을 목표로 현재 진행중
+          예비창업패키지, 학생 창업유망팀 300 선발을 목표로 진행
         description: | # this will include new lines to allow paragraphs
           #### [목적]
           * 서비스 이용자에게 개인 코디네이터를 1:1로 매칭하여 옷 및 체형 등과 같은 
@@ -85,10 +85,8 @@ content:
           * 금융결제원 오픈뱅킹 OpenAPI를 이용한 [계좌실명조회 기능 구현](https://ws-pace.tistory.com/231?category=1010992)
           * 기능 단위 패키지 개발 & Git Branch 전략을 통한 협업
           * Junit 5 및 BDD Mockito 를 사용하여 API, DB (JPA), Service 로직 테스트 코드 작성
-          * Web Socket을 이용해 사용자와 코디네이터간 실시간 채팅 구현
           * 전체 목록 조회 시 JPA의 페이징 기법을 적용하여 DB 쿼리 최적화
-          * Fetch Join Query문을 통해 Lazy Loading 관계를 포함하는 객체 조회 시 발생하는 1 + N 문제를 해결함
-          * AWS IAM 계정을 통한 S3 이미지 업로드 & UUID 고유값 발급 후 UUID를 이용해 이미지 관리
+          * Fetch Join Query문을 통해 Lazy Loading 관계를 포함하는 객체 조회 시 발생하는 N + 1 문제 해결
 
           #### [문제 해결 경험]
           * 토스페이먼츠 서브몰 등록 API 개발 중 [공식문서 오류 정정기](https://ws-pace.tistory.com/242?category=1010992)
@@ -98,7 +96,10 @@ content:
           * 서버 : AWS EC2, RDS, S3
           * DB : MySql
           * 프레임워크 : Spring Boot, Spring Data JPA, Gradle, Swagger
-          * 외부 API : 토스페이먼츠 PG, 금융결제원 오픈뱅킹 오픈API
+          * 외부 API : 토스페이먼츠 PG, 금융결제원 오픈뱅킹 오픈 API
+
+          #### [성과]
+          # 스타일 멘토 앱 구글플레이 출시, 예비창업패키지 출품
 
           #### [참고 자료]
             * [스타일 멘토 구글플레이 링크](https://play.google.com/store/apps/details?id=com.sigmai.stylemento)
@@ -115,7 +116,7 @@ content:
           해커톤 이후 약 3개월간 실제 운영기간 동안 평균 DAU 20 이상 유지
         description: | # this will include new lines to allow paragraphs
           #### [목적]
-          * 해커톤 프로젝트로 리그오브레전드 게임 유저들이 쉽고 간편하게 스펠/궁극기 시간을 체크할 수 있는 서비스 제작
+          * Riot Games API를 활용하여 리그오브레전드 게임 유저들이 쉽고 편리하게 스펠/궁극기 시간을 체크할 수 있는 서비스 제작
 
           #### [인원]
           * 5명 - 백엔드 2명, 프론트 2명, 디자이너 1명
@@ -129,8 +130,6 @@ content:
           * Git web hook + Jenkins를 이용한 CI/CD 구현 및 Slack 연동
           * 도메인 구매 후 TLS를 이용해 HTTPS 적용
           * Spring boot mail을 이용해 예외 발생 시 지정된 이메일로 에러 내용 발송
-          * 제 1회 OPGG 정보통신 경진대회 우승
-          * 약 3달간 실제 서비스 운영 및 [평균 DAU 20 이상 달성](https://www.notion.so/woonsik/DAU-8c520326005146758a0e23bc0c82ef78)
 
           #### [문제 해결 경험]
           * 트랜잭션 Uncheck 예외 발생 시 [Rollback only 활성화 이슈](https://ws-pace.tistory.com/138?category=962975)
@@ -144,6 +143,10 @@ content:
           * DB : MySql
           * 프레임워크 : Spring Boot, Spring Data JPA, Gradle, Swagger
           * 외부 API : [Orianna](https://github.com/meraki-analytics/orianna)
+
+          #### [성과]
+          * 제 1회 OPGG 정보통신 경진대회 우승
+          * 약 3달간 실제 서비스 운영 및 [평균 DAU 20 이상 달성](https://www.notion.so/woonsik/DAU-8c520326005146758a0e23bc0c82ef78)
 
           #### [참고 자료]
           * [스우미 서비스 링크](https://swoomi.me)
