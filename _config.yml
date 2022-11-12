@@ -54,28 +54,43 @@ about_content: |
 # projects_title: Projects
 
 content:
+  - title: 경력
+    layout: list
+    content:
+      - layout: left
+        title: 카카오스타일 프라이싱팀
+        sub_title: 백엔드 엔지니어링 인턴
+        caption: 2022.06 ~ 현재
+        link: https://kakaostyle.com/
+        description: |
+          #### [역할]
+          * 기존 노드 기반의 코드를 코틀린과 스프링 배치 기반으로 전환
+          * 스프링 배치 + 셀레니움을 이용하여 복수의 타 사이트 스크래이핑 구현
+          * GraphQL + QueryDSL을 이용하여 내부 중복 상품에 대한 수동 매칭 시스템 구현
+          * Github Actions를 사용하여 안정적인 Versioning과 연속적인 EKS 배포 구현
+          * AWS Athena에 데이터 적재를 위한 배치 구현
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 코디네이터 1:1 매칭 패션 플랫폼 [팀] - 스타일멘토
         sub_title: 담당 - Spring Boot 백엔드
-        caption: 2021.12 ~ 현재
+        caption: 2021.12 ~ 2022.06
         link: https://github.com/Sigma-i-2022/backend/tree/develop
         # link_text: Project Website
-        additional_links:
-          - title: GooglePlay
-            icon: fab fa-google-play
-            url: https://play.google.com/store/apps/details?id=com.sigmai.stylemento
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # additional_links:
+        #   - title: GooglePlay
+        #     icon: fab fa-google-play
+        #     url: https://play.google.com/store/apps/details?id=com.sigmai.stylemento
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          예비창업패키지, 학생 창업유망팀 300 선발을 목표로 진행
+          교육부 주관 학생 창업유망팀 300 성장트랙을 목표로 진행
         description: | # this will include new lines to allow paragraphs
           #### [목적]
-          * 서비스 이용자에게 개인 코디네이터를 1:1로 매칭하여 옷 및 체형 등과 같은 
-          개별적 요소를 고려해 고객 맞춤형 코디 추천 서비스를 제공해주는 패션 플랫폼 제작
+          * 서비스 이용자에게 개인 코디네이터를 1:1 매칭하여 스타일에 대한 피드백 및 개별적 요소를 고려한 고객 맞춤형 코디 추천 서비스를 제공해주는 패션 플랫폼 제작
 
           #### [인원]
           * 7명 - 백엔드 2명, 안드로이드 2명, 디자이너 1명, 기획 2명
@@ -94,26 +109,25 @@ content:
           #### [사용 기술]
           * 언어 : Java
           * 서버 : AWS EC2, RDS, S3
+          * 모니터링 : AWS Cloud Watch
           * DB : MySql
           * 프레임워크 : Spring Boot, Spring Data JPA, Gradle, Swagger
           * 외부 API : 토스페이먼츠 PG, 금융결제원 오픈뱅킹 오픈 API
 
           #### [성과]
-          * 스타일 멘토 앱 구글플레이 출시, 예비창업패키지 출품
+          * 교육부 주관 학생 [창업유망팀 300 경진대회 성장트랙](http://www.u300.or.kr/cms/process/team/view.asp?c_show_no=104&c_check_no=97&c_relation=962&c_relation2=980&c_no=4182) 최종 선정
 
-          #### [참고 자료]
-            * [스타일 멘토 구글플레이 링크](https://play.google.com/store/apps/details?id=com.sigmai.stylemento)
       - layout: left
         title: 리그오브레전드 스펠/궁극기 체크 도우미 [팀] - 스우미
         sub_title: 담당 - Spring Boot 백엔드
         caption: 2021.07 ~ 2021.10
-        link: https://github.com/Team-Swoomi/swoomi-backend
-        additional_links:
-          - title: swoomi
-            icon: fas fa-globe
-            url: https://swoomi.me
+        link: https://github.com/choiwoonsik/swoomi-backend
+        # additional_links:
+        #   - title: swoomi
+        #     icon: fas fa-globe
+        #     url: https://swoomi.me
         quote: >
-          해커톤 이후 약 3개월간 실제 운영기간 동안 평균 DAU 20 이상 유지
+          해커톤 우승 후 약 3개월의 실제 운영기간 동안 평균 DAU 20 이상 유지
         description: | # this will include new lines to allow paragraphs
           #### [목적]
           * Riot Games API를 활용하여 리그오브레전드 게임 유저들이 쉽고 편리하게 스펠/궁극기 시간을 체크할 수 있는 서비스 제작
@@ -149,7 +163,7 @@ content:
           * 약 3달간 실제 서비스 운영 및 [평균 DAU 20 이상 달성](https://www.notion.so/woonsik/DAU-8c520326005146758a0e23bc0c82ef78)
 
           #### [참고 자료]
-          * [스우미 서비스 링크](https://swoomi.me)
+          * [프론트](https://github.com/OPGG-HACKTHON/web-c-client)
           * OPGG 해커톤 우승 [인터뷰](https://m.post.naver.com/viewer/postView.naver?volumeNo=32651307&memberNo=24985926) 및 [수료증](https://hackathon.op.gg/users/yZezVI4Zhc)
 
         # [후기]
@@ -211,10 +225,10 @@ content:
       - layout: left
         title: Backend
         description: |
-          * Java
-          * Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Redis, Spring Cloud Netflix
+          * Java, Kotlin
+          * Spring Boot, Spring Batch, Spring MVC, Spring Security, Spring Data JPA, Redis
           * JPA, Hibernate
-          * JUnit4/5, BDD Mockito, nGrinder
+          * JUnit4/5, BDD Mockito, MockK, nGrinder
           * Gradle, Swagger
           * Linux, IntelliJ, Git/Github
 
@@ -232,7 +246,7 @@ content:
         title: 상명대학교
         sub_title: SW융합학부 컴퓨터과학전공
         caption: |
-          2016.03 - 2023.02 (4학년 1학기 재학중)
+          2016.03 - 2023.02 (졸업예정)
         quote:
         description: | # this will include new lines to allow paragraphs
           [전공 과목]
@@ -241,7 +255,7 @@ content:
           * 객체지향 프로그래밍 수업을 통해 다양한 [디자인 패턴](https://ws-pace.tistory.com/category/CS/GoF%EC%9D%98%20Design%20Pattern%20%EC%A0%95%EB%A6%AC)의 구조 및 활용 방법 학습
 
           [졸업 프로젝트]
-          * 저전력 통신 기법인 LoRa를 기반으로, IoT 센서를 이용하여 배터리 셀에 대한 온도, 전압 등의 데이터를 실시간으로 처리하는 웹페이지 개발 중
+          * 저전력 통신 기법인 LoRa를 기반으로, IoT 센서를 이용하여 배터리 셀에 대한 온도, 전압 등의 데이터를 실시간으로 처리하는 웹페이지 개발
 
       - layout: left
         title: 42 서울
