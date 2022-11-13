@@ -9,7 +9,8 @@ version: 2
 name: 최운식
 title: JAVA Back-end Developer
 email: woonsik.dev@gmail.com
-webSite: https://ws-pace.tistory.com/
+website: https://ws-pace.tistory.com/
+blog: https://ws-pace.tistory.com/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -74,7 +75,7 @@ content:
           #### [사용기술]
           * 언어: Kotlin
           * API: GraphQL
-          * AWS: S3, Lambda
+          * AWS: Athena, S3, Lambda, EC2
           * DB: MySql, QueryDsl
           * 외부 툴: Spring Batch, Selenium, Skrape.it, Jenkins
 
