@@ -76,7 +76,7 @@ content:
           * API: GraphQL
           * AWS: Athena, S3, Lambda, EC2
           * DB: MySql, QueryDsl
-          * 외부 툴: Spring Batch, Selenium, Skrape.it, Jenkins
+          * Library: Spring Batch, Selenium, Skrape.it, Jenkins
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
