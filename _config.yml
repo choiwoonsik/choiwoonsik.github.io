@@ -48,13 +48,13 @@ github_username: choiwoonsik
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  안녕하세요. 자바 백엔드 신입 개발자 최운식입니다.
+  안녕하세요. 백엔드 개발자 최운식입니다.
 
 # Projects Section
 # projects_title: Projects
 
 content:
-  - title: 경력
+  - title: Work Experience
     layout: list
     content:
       - layout: left
@@ -64,11 +64,19 @@ content:
         link: https://kakaostyle.com/
         description: |
           #### [역할]
-          * 기존 노드 기반의 코드를 코틀린과 스프링 배치 기반으로 전환
-          * 스프링 배치 + 셀레니움을 이용하여 복수의 타 사이트 스크래이핑 구현
-          * GraphQL + QueryDSL을 이용하여 내부 중복 상품에 대한 수동 매칭 시스템 구현
+          * 기존 Node 기반의 코드를 Kotlin과 Spring Batch 기반으로 전환
+          * Spring Batch, Selenium, Skrape.it을 이용하여 타 사이트 스크래이핑 구현
+          * GraphQL, QueryDSL을 이용하여 내부 중복 상품에 대한 매칭 시스템 구현
           * Github Actions를 사용하여 안정적인 Versioning과 연속적인 EKS 배포 구현
           * AWS Athena에 데이터 적재를 위한 배치 구현
+          * 인턴 프로젝트 `골라주세요` 백엔드 개발
+
+          #### [사용기술]
+          * 언어: Kotlin
+          * API: GraphQL
+          * AWS: S3, Lambda
+          * DB: MySql, QueryDsl
+          * 외부 툴: Spring Batch, Selenium, Skrape.it, Jenkins
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -206,7 +214,7 @@ content:
         # * Jwt을 적용하기 위해 Spring Security의 절차 과정을 배웠으며 OAuth2.0을 적용해보며 클라이언트와 서버, OAuth 서버간의 통신 메커니즘을 배웠습니다.
         # * JWT의 내부 구조 및 작동 원리, 장단점에 대해 배웠습니다.
 
-  - title: Opensource
+  - title: Blog
     layout: list
     content:
       - layout: left
@@ -223,21 +231,15 @@ content:
     layout: list
     content:
       - layout: left
-        title: Backend
+        title: 백엔드 기술 스택
         description: |
-          * Java, Kotlin
-          * Spring Boot, Spring Batch, Spring MVC, Spring Security, Spring Data JPA, Redis
-          * JPA, Hibernate
-          * JUnit4/5, BDD Mockito, MockK, nGrinder
-          * Gradle, Swagger
-          * Linux, IntelliJ, Git/Github
-
-      - layout: left
-        title: DevOps
-        description: |
-          * AWS EC2, RDS, IAM, Cloud Watch, S3
-          * Jenkins
-          * MySql, H2
+          * Language: Java, Kotlin
+          * Back-End: Spring(Boot, Batch, MVC, Security, Data JPA), QueryDsl, Redis, AWS(EC2, RDS, S3, Lambda, Cloud Watch)
+          * Database: MySql
+          * API: GraphQL, REST API
+          * Test Library: JUnit4/5, BDD Mockito, MockK, nGrinder
+          * Build Tool: Gradle
+          * Tool: Linux, IntelliJ, Git/Github, Github Actions, Jenkins
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
