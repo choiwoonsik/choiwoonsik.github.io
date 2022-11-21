@@ -46,7 +46,7 @@ github_username: choiwoonsik
 
 # About Section
 about_title: About Me
-about_profile_image: images/profile2.png
+about_profile_image: images/profile3.png
 about_content: |
   안녕하세요. 백엔드 개발자 최운식입니다.
 
@@ -58,7 +58,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: 카카오스타일 프라이싱팀
+        title: 카카오스타일 PIM팀
         sub_title: 백엔드 엔지니어링 인턴
         caption: 2022.06 ~ 현재
         link: https://kakaostyle.com/
