@@ -64,7 +64,7 @@ content:
         link: https://github.com/croquiscom/pim
         description: |
           #### [역할]
-          * 기존 Node 버전 크롤링 코드 -> Kotlin 기반 Spring Batch 방식으로 전환
+          * 기존 Node 버전 크롤링 코드 ➡️ Kotlin 기반 Spring Batch 방식으로 전환
           * Spring Batch, Selenium, Skrape.it을 이용하여 타 사이트 크롤링 배치 구현
           * Github Actions를 사용하여 안정적인 Versioning 배포 체계 구현
           * GraphQL, QueryDSL을 이용하여 내부 중복 상품에 대한 수동 매칭 API 구현
