@@ -190,7 +190,7 @@ content:
         link: https://github.com/choiwoonsik/springboot_RestApi_App_Project
         additional_links:
         - title: 깃허브
-            icon: fab fa-github
+            icon: fa-brands fa-square-github
             url: https://github.com/choiwoonsik/springboot_RestApi_App_Project
           - title: 블로그 정리
             icon: fas fa-globe
