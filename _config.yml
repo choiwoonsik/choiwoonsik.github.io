@@ -74,9 +74,9 @@ content:
           #### [사용기술]
           * 언어: Kotlin
           * 프레임워크: Spring Batch
+          * AWS: Athena, S3, Lambda, EC2
           * DB: MySql, QueryDsl
           * API: GraphQL
-          * AWS: Athena, S3, Lambda, EC2
           * 라이브러리: Selenium, Skrape.it, Jenkins
 
   - title: Projects # Title for the section
@@ -239,7 +239,7 @@ content:
         description: |
           * 언어: Java, Kotlin
           * 프레이워크: Spring(Boot, Batch, MVC, Security, Data JPA)
-          * DevOps: AWS(EC2, RDS, S3, Lambda, Cloud Watch)
+          * AWS: EC2, RDS, S3, Lambda, Cloud Watch
           * DB: MySql, Redis, QueryDsl
           * API: GraphQL, REST API
           * 테스트: JUnit4/5, BDD Mockito, MockK, nGrinder
