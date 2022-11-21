@@ -61,7 +61,7 @@ content:
         title: 카카오스타일 PIM팀
         sub_title: 백엔드 엔지니어링 인턴
         caption: 2022.06 ~ 현재
-        link: https://kakaostyle.com/
+        link: https://github.com/croquiscom/pim
         description: |
           #### [역할]
           * 기존 Node 버전 크롤링 코드에서 Kotlin 기반 Spring Batch 방식으로 전환
