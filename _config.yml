@@ -187,7 +187,6 @@ content:
         title: 스프링 부트 웹 애플리케이션 [개인]
         sub_title: 담당 - 전체
         caption: 2021.05 ~ 2021.07
-        link: https://github.com/choiwoonsik/springboot_RestApi_App_Project
         additional_links:
           - title: 깃허브
             icon: fa-brands fa-square-github
