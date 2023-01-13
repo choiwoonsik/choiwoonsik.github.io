@@ -58,8 +58,8 @@ content:
     layout: list
     content:
       - layout: left
-        title: 카카오스타일 PIM팀
-        sub_title: 백엔드 엔지니어링 인턴
+        title: 카카오스타일 프라이싱팀
+        sub_title: 백엔드 엔지니어
         caption: 2022.06 ~ 현재
         link: https://github.com/croquiscom/pim
         description: |
@@ -68,8 +68,6 @@ content:
           * Spring Batch, Selenium, Skrape.it을 이용하여 타 사이트 크롤링 배치 구현
           * Github Actions를 사용하여 안정적인 Versioning 배포 체계 구현
           * GraphQL, QueryDSL을 이용하여 내부 중복 상품에 대한 수동 매칭 API 구현
-          * 등록형 복사 상품에 대한 자동 상품 매칭 배치 구현
-          * 인턴 프로젝트 "골라주세요" 백엔드 개발
 
           #### [사용기술]
           * 언어: Kotlin
