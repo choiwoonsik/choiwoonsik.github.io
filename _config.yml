@@ -61,7 +61,7 @@ content:
         title: 카카오스타일 프라이싱팀
         sub_title: 백엔드 엔지니어
         caption: 2022.06 ~ 현재
-        link: https://github.com/croquiscom/pim
+        link: https://github.com/croquiscom
         description: |
           #### [역할]
           * 기존 Node 버전 크롤링 코드 ➡️ Kotlin 기반 Spring Batch 방식으로 전환
