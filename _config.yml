@@ -49,6 +49,10 @@ about_title: About Me
 about_profile_image: images/profile4.png
 about_content: |
   안녕하세요. 백엔드 개발자 최운식입니다.
+  - kotlin + Spring Boot 기반 백엔드 개발을 담당하고 있습니다. 
+  - 카카오스타일에 재직 중이며 2주 단위 스프린트를 통한 애자일 방식의 개발을 진행하고 있습니다.
+  - 개발 / 코드 리뷰를 병행하며 읽기 좋으며 수정하기 좋은 코드를 작성하는 데 많은 관심이 있습니다.
+  - 지속적인 기술 학습을 위해 도서 스터디를 진행하며 강의를 듣고 기술 블로그를 운영하고 있습니다.
 
 # Projects Section
 # projects_title: Projects
@@ -64,10 +68,13 @@ content:
         link: https://github.com/croquiscom
         description: |
           #### [역할]
-          * 멤버십 개편 개발 및 Batch 구현 시 Athena Query, ItemStream에 비동기 멀티 스레드를 적용하여 성능 개선
-          * 기존 Node 버전 크롤링 코드 ➡️ Kotlin 기반 Spring Batch 방식으로 전환
-          * Spring Batch, Selenium, Skrape.it을 이용하여 타 사이트 크롤링 배치 구현
-          * Github Actions를 사용하여 안정적인 Versioning 배포 및 롤백 체계 구현
+          * 기존 Node 기반 멤버십 ➡️ Spring 전환 및 개편
+            * Spring Batch ItemStream에 비동기 멀티 스레드를 적용하여 1시간 이내에 처리되도록 성능 개선
+            * Athena Query 최적화
+          * 기존 Node 기반 크롤링 ➡️ Spring 전환
+            * Spring Batch, Selenium, Skrape.it을 이용하여 타 사이트 크롤링 Batch 개발
+            * IteamStream을 통해 중도 중단될 경우에도 Execution Context에 저장된 인덱스를 기준으로 재시작 가능하도록 적용
+          * Github Actions를 사용하여 안정적인 Versioning 배포가 가능하도록 개선 및 롤백 체계 구현
           * GraphQL, QueryDSL을 이용하여 지그재그 내부 중복 상품에 대한 수동/자동 매칭 API 및 Batch 구현 
 
           #### [사용기술]
@@ -78,6 +85,7 @@ content:
           * API: DGS + GraphQL
           * 라이브러리: Jenkins, Kafka, Selenium, Github Actions
           * 테스트: JUnit5, Kotest, MockK
+          * 툴: Slack, Jira, DataDog, Github Actions, ArgoCD
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -241,7 +249,7 @@ content:
         title: 백엔드 기술 스택
         description: |
           * 언어: Java, Kotlin
-          * 프레이워크: Spring(Boot, Batch, MVC, Security, Data JPA)
+          * 프레임워크: Spring(Boot, Batch, MVC, Security, Data JPA)
           * AWS: EC2, RDS, S3, Lambda, Cloud Watch
           * DB: MySql, Redis, QueryDsl
           * API: GraphQL, REST API
